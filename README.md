@@ -1,2 +1,3 @@
 # jay-code
-revature training
+jay's revature training code
+version 2
