@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#image {
+    padding: 10px;
+    border: solid;
+    width: 30%;
+    border-color:black;
+    border-width: 3;
+}
+
+table, table td, table th {
+    border: 1px solid black;
+}
+
+.genderbox {
+    border: 1px solid black;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+}
+
+.submitbutton {
+    margin-bottom: 30px;
+}
