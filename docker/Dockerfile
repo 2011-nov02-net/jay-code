@@ -7,3 +7,6 @@ COPY . ./
 # CMD dotnet run
 RUN dotnet publish -o publish
 CMD dotnet /app/publish/docker.dll
+
+# docker build -t docker-console .
+# docker run docker-console
