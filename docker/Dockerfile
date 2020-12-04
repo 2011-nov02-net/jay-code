@@ -1,5 +1,9 @@
-FROM mcr.microsoft.com/dotnet/runtime:5.0
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 
-COPY publish/ /app
+COPY . /app
 
-CMD dotnet /app/docker.dll
+# RUN dotnet publish -o publish
+
+# CMD dotnet /app/publish/docker.dll
+
+CMD dotnet run
